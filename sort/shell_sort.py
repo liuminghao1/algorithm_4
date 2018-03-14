@@ -5,7 +5,7 @@ def shell_sort(_list):
     length = len(_list)
 
     step = 1
-    while step < length//3:   # 分成个子数组 起点分别是 1 4 13 40....
+    while step < length//3:   # 分成N个子数组 起点分别是 1 4 13 40....
         step = step * 3 + 1
 
     while step >= 1:
