@@ -46,7 +46,7 @@ def partition(_list, low, high):
             right -= 1
             if right == low:
                 break
-        if left >= right:
+        if left >= right:  # left 和 right 都有可能互相越界 导致错误交换
             break
         list_exchange(_list, left, right)  # 没到切分元素前 左右的数互相交换
 
