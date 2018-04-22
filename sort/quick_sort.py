@@ -10,9 +10,7 @@ def quick_sort(_list, low, high):
     quick_sort(_list, target+1, high)
 
 
-
 def quick_3way(_list, low, high):
-    [1,0,2,1]
     if low >= high:
         return
     left = low
